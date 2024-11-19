@@ -1,0 +1,47 @@
+.example-container {
+    height: 100vh;
+}
+
+.mat-icon {
+    cursor: pointer;
+}
+
+.sidenav {
+    width: 300px;
+}
+
+.logo-container {
+    border-bottom: solid black 1px;
+    padding-inline: 16px;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.toolbar, mat-toolbar {
+    min-height: 56px !important;
+    height: 56px;
+}
+
+.link-icons {
+    list-style-type: none;
+    padding: 0;
+    li{
+        padding-inline: 16px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(128, 128, 128, 0.514)
+        }
+    }
+}
+
+.routerContainer {
+    padding-top: 16px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
